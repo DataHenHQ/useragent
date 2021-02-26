@@ -1,0 +1,1031 @@
+{
+  "desktop": {
+      "id": "desktop",
+      "oses": [
+          {
+              "id": "windows",
+              "probability": 0.7712,
+              "variants": [
+                  {
+                      "id": "windows7",
+                      "signatures": ["Windows NT 6.1; Win64; x64"],
+                      "probability": 0.1856,
+                      "browser_ids": [
+                          "ie",
+                          "edge",
+                          "chrome",
+                          "firefox",
+                          "opera"
+                      ],
+                      "data": {
+                          "kernel": ["Windows NT 6.1"]
+                      }
+                  }, {
+                      "id": "windows8",
+                      "signatures": ["Windows NT 6.2; Win64; x64"],
+                      "probability": 0.0106,
+                      "browser_ids": [
+                          "ie",
+                          "edge",
+                          "chrome",
+                          "firefox",
+                          "opera"
+                      ],
+                      "data": {
+                          "kernel": ["Windows NT 6.2"]
+                      }
+                  }, {
+                      "id": "windows8.1",
+                      "signatures": ["Windows NT 6.3; Win64; x64"],
+                      "probability": 0.0416,
+                      "browser_ids": [
+                          "ie",
+                          "edge",
+                          "chrome",
+                          "firefox",
+                          "opera"
+                      ],
+                      "data": {
+                          "kernel": ["Windows NT 6.3"]
+                      }
+                  }, {
+                      "id": "windows10",
+                      "signatures": ["Windows NT 10.0; Win64; x64"],
+                      "probability": 0.7400,
+                      "browser_ids": [
+                          "ie",
+                          "edge",
+                          "chrome",
+                          "firefox",
+                          "opera"
+                      ],
+                      "data": {
+                          "kernel": ["Windows NT 10.0"]
+                      }
+                  }
+              ]
+          }, {
+              "id": "macos",
+              "probability": 0.4704,
+              "variants": [
+                  {
+                      "id": "macos10.12",
+                      "signatures": ["Macintosh; Intel Mac OS X 10_12_6"],
+                      "probability": 0.0480,
+                      "browser_ids": [
+                          "chrome",
+                          "firefox",
+                          "opera",
+                          "safari12"
+                      ],
+                      "data": {}
+                  }, {
+                      "id": "macos10.13",
+                      "signatures": ["Macintosh; Intel Mac OS X 10_13_6"],
+                      "probability": 0.1235,
+                      "browser_ids": [
+                          "chrome",
+                          "firefox",
+                          "opera",
+                          "safari12",
+                          "safari13"
+                      ],
+                      "data": {}
+                  }, {
+                      "id": "macos10.14",
+                      "signatures": [
+                          "Macintosh; Intel Mac OS X 10_14",
+                          "Macintosh; Intel Mac OS X 10_14_1",
+                          "Macintosh; Intel Mac OS X 10_14_2",
+                          "Macintosh; Intel Mac OS X 10_14_3",
+                          "Macintosh; Intel Mac OS X 10_14_4",
+                          "Macintosh; Intel Mac OS X 10_14_5",
+                          "Macintosh; Intel Mac OS X 10_14_6"
+                      ],
+                      "probability": 0.1562,
+                      "browser_ids": [
+                          "chrome",
+                          "firefox",
+                          "opera",
+                          "safari12",
+                          "safari13",
+                          "safari14"
+                      ],
+                      "data": {}
+                  }, {
+                      "id": "macos10.15",
+                      "signatures": [
+                          "Macintosh; Intel Mac OS X 10_15",
+                          "Macintosh; Intel Mac OS X 10_15_1",
+                          "Macintosh; Intel Mac OS X 10_15_2",
+                          "Macintosh; Intel Mac OS X 10_15_3",
+                          "Macintosh; Intel Mac OS X 10_15_4",
+                          "Macintosh; Intel Mac OS X 10_15_5",
+                          "Macintosh; Intel Mac OS X 10_15_6",
+                          "Macintosh; Intel Mac OS X 10_15_7"
+                      ],
+                      "probability": 0.5925,
+                      "browser_ids": [
+                          "chrome",
+                          "firefox",
+                          "opera",
+                          "safari13",
+                          "safari14"
+                      ],
+                      "data": {}
+                  }
+              ]
+          }, {
+              "id": "linux",
+              "probability": 0.0174,
+              "variants": [
+                  {
+                      "id": "linux",
+                      "signatures": [
+                          "X11; Linux i686",
+                          "X11; Linux x86_64",
+                          "X11; Linux armv7l",
+                          "X11; Linux aarch64"
+                      ],
+                      "probability": 1,
+                      "browser_ids": [
+                          "chrome",
+                          "firefox",
+                          "opera"
+                      ],
+                      "data": {}
+                  }
+              ]
+          }, {
+              "id": "chromeos",
+              "probability": 0.0152,
+              "variants": [
+                  {
+                      "id": "chromeos",
+                      "signatures": [
+                          "X11; CrOS x86_64 10895.56.0",
+                          "X11; CrOS x86_64 10895.78.0",
+                          "X11; CrOS x86_64 11021.56.0",
+                          "X11; CrOS x86_64 11021.81.0",
+                          "X11; CrOS x86_64 11151.59.0",
+                          "X11; CrOS x86_64 11151.113.0",
+                          "X11; CrOS x86_64 11316.123.0",
+                          "X11; CrOS x86_64 11316.123.1",
+                          "X11; CrOS x86_64 11316.148.0",
+                          "X11; CrOS x86_64 11316.165.0",
+                          "X11; CrOS x86_64 11647.104.0",
+                          "X11; CrOS x86_64 11647.104.1",
+                          "X11; CrOS x86_64 11647.104.2",
+                          "X11; CrOS x86_64 11647.104.3",
+                          "X11; CrOS x86_64 11647.154.0",
+                          "X11; CrOS x86_64 11895.95.0",
+                          "X11; CrOS x86_64 11895.95.1",
+                          "X11; CrOS x86_64 11895.118.0",
+                          "X11; CrOS x86_64 12105.75.0",
+                          "X11; CrOS x86_64 12371.75.0",
+                          "X11; CrOS x86_64 12371.89.0",
+                          "X11; CrOS x86_64 12499.66.0",
+                          "X11; CrOS x86_64 12607.58.0",
+                          "X11; CrOS x86_64 12607.81.0",
+                          "X11; CrOS x86_64 12607.82.0",
+                          "X11; CrOS x86_64 12739.87.0",
+                          "X11; CrOS x86_64 12739.94.0",
+                          "X11; CrOS x86_64 12739.105.0",
+                          "X11; CrOS x86_64 12739.111.0",
+                          "X11; CrOS x86_64 12871.102.0",
+                          "X11; CrOS x86_64 13020.55.0",
+                          "X11; CrOS x86_64 13020.55.1",
+                          "X11; CrOS x86_64 13020.67.0",
+                          "X11; CrOS x86_64 13020.82.0",
+                          "X11; CrOS x86_64 13020.87.0",
+                          "X11; CrOS x86_64 13099.72.0",
+                          "X11; CrOS x86_64 13099.85.0",
+                          "X11; CrOS x86_64 13310.59.0",
+                          "X11; CrOS x86_64 13310.76.0",
+                          "X11; CrOS x86_64 13310.91.0",
+                          "X11; CrOS x86_64 13310.93.0",
+                          "X11; CrOS x86_64 13421.53.0",
+                          "X11; CrOS x86_64 13421.73.0"
+                      ],
+                      "probability": 1,
+                      "browser_ids": [
+                          "chrome",
+                          "firefox",
+                          "opera"
+                      ],
+                      "data": {}
+                  }
+              ]
+          }
+      ],
+      "browsers": {
+          "ie": {
+              "id": "ie",
+              "probability": 0.0119,
+              "ua_format": "Mozilla/5.0 (<os:kernel>; Trident/7.0; rv:11.0) like Gecko",
+              "variants": [
+                  {
+                      "id": "ie",
+                      "probability": 1,
+                      "data": {}
+                  }
+              ]
+          },
+          "edge": {
+              "id": "edge",
+              "probability": 0.0261,
+              "ua_format": "Mozilla/5.0 (<os:signature>) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/<browser:chromium> Safari/537.36 Edg/<browser:edge>",
+              "variants": [
+                  {
+                      "id": "1",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["74.0.3729.48"],
+                          "edge": ["74.1.96.24"]
+                      }
+                  }, {
+                      "id": "2",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["75.0.3739.0"],
+                          "edge": ["75.0.109.0"]
+                      }
+                  }, {
+                      "id": "3",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["79.0.3945.45"],
+                          "edge": ["79.0.309.30"]
+                      }
+                  }, {
+                      "id": "4",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["79.0.3945.74"],
+                          "edge": ["79.0.309.43"]
+                      }
+                  }, {
+                      "id": "5",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["79.0.3945.117"],
+                          "edge": ["79.0.309.63"]
+                      }
+                  }, {
+                      "id": "6",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["80.0.3974.0"],
+                          "edge": ["80.0.345.0"]
+                      }
+                  }, {
+                      "id": "7",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["80.0.3987.116"],
+                          "edge": ["80.0.361.57"]
+                      }
+                  }, {
+                      "id": "8",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["81.0.3992.0"],
+                          "edge": ["81.0.367.0"]
+                      }
+                  }, {
+                      "id": "9",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["81.0.4044.129"],
+                          "edge": ["81.0.416.68"]
+                      }
+                  }, {
+                      "id": "10",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["81.0.4044.138"],
+                          "edge": ["81.0.416.77"]
+                      }
+                  }, {
+                      "id": "11",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["82.0.4056.0"],
+                          "edge": ["82.0.432.3"]
+                      }
+                  }, {
+                      "id": "12",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["83.0.4103.61"],
+                          "edge": ["83.0.478.37"]
+                      }
+                  }, {
+                      "id": "13",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["83.0.4103.97"],
+                          "edge": ["83.0.478.45"]
+                      }
+                  }, {
+                      "id": "14",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["83.0.4103.106"],
+                          "edge": ["83.0.478.54"]
+                      }
+                  }, {
+                      "id": "15",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["83.0.4103.116"],
+                          "edge": ["83.0.478.58"]
+                      }
+                  }, {
+                      "id": "16",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["84.0.4115.0"],
+                          "edge": ["84.0.488.1"]
+                      }
+                  }, {
+                      "id": "17",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["84.0.4147.105"],
+                          "edge": ["84.0.522.52"]
+                      }
+                  }, {
+                      "id": "18",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["84.0.4147.125"],
+                          "edge": ["84.0.522.59"]
+                      }
+                  }, {
+                      "id": "19",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["85.0.4183.83"],
+                          "edge": ["85.0.564.41"]
+                      }
+                  }, {
+                      "id": "20",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["85.0.4183.83"],
+                          "edge": ["85.0.564.44"]
+                      }
+                  }, {
+                      "id": "21",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["85.0.4183.102"],
+                          "edge": ["85.0.564.51"]
+                      }
+                  }, {
+                      "id": "22",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["85.0.4183.121"],
+                          "edge": ["85.0.564.63"]
+                      }
+                  }, {
+                      "id": "23",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["85.0.4183.121"],
+                          "edge": ["85.0.564.70"]
+                      }
+                  }, {
+                      "id": "24",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["86.0.4240.75"],
+                          "edge": ["86.0.622.38"]
+                      }
+                  }, {
+                      "id": "25",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["86.0.4240.80"],
+                          "edge": ["86.0.622.43"]
+                      }
+                  }, {
+                      "id": "26",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["86.0.4240.80"],
+                          "edge": ["86.0.622.48"]
+                      }
+                  }, {
+                      "id": "27",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["86.0.4240.111"],
+                          "edge": [
+                              "86.0.622.51",
+                              "86.0.622.56"
+                          ]
+                      }
+                  }
+              ]
+          },
+          "chrome": {
+              "id": "chrome",
+              "probability": 0.6630,
+              "ua_format": "Mozilla/5.0 (<os:signature>) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/<browser:version> Safari/537.36",
+              "variants": [
+                  {
+                      "id": "chrome",
+                      "probability": 1,
+                      "data": {
+                          "version": [
+                              "64.0.3282",
+                              "65.0.3325",
+                              "66.0.3359",
+                              "67.0.3396",
+                              "68.0.3440",
+                              "69.0.3497",
+                              "70.0.3538",
+                              "71.0.3578",
+                              "72.0.3626",
+                              "73.0.3683",
+                              "74.0.3729",
+                              "75.0.3770",
+                              "76.0.3809",
+                              "77.0.3865",
+                              "78.0.3904",
+                              "79.0.3945",
+                              "80.0.3987",
+                              "81.0.4044",
+                              "83.0.4103",
+                              "84.0.4147",
+                              "85.0.4183",
+                              "86.0.4240"
+                          ]
+                      }
+                  }
+              ]
+          },
+          "firefox": {
+              "id": "firefox",
+              "probability": 0.0408,
+              "ua_format": "Mozilla/5.0 (<os:signature>; rv:<browser:version>) Gecko/20100101 Firefox/<browser:version>",
+              "variants": [
+                  {
+                      "id": "firefox",
+                      "probability": 1,
+                      "data": {
+                          "version": ["62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81"]
+                      }
+                  }
+              ]
+          },
+          "opera": {
+              "id": "opera",
+              "probability": 0.0206,
+              "ua_format": "Mozilla/5.0 (<os:signature>) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/<browser:chromium> Safari/537.36 OPR/<browser:opera>",
+              "variants": [
+                  {
+                      "id": "1",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "69.0.3497.100"
+                          ],
+                          "opera": [
+                              "56.0.3051.31",
+                              "56.0.3051.35",
+                              "56.0.3051.36",
+                              "56.0.3051.43",
+                              "56.0.3051.52",
+                              "56.0.3051.99",
+                              "56.0.3051.102",
+                              "56.0.3051.104",
+                              "56.0.3051.116"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "2",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "70.0.3538.102"
+                          ],
+                          "opera": [
+                              "57.0.3098.76",
+                              "57.0.3098.91",
+                              "57.0.3098.102",
+                              "57.0.3098.106",
+                              "57.0.3098.110",
+                              "57.0.3098.116"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "3",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "71.0.3578.80"
+                          ],
+                          "opera": [
+                              "58.0.3135.47",
+                              "58.0.3135.53",
+                              "58.0.3135.59",
+                              "58.0.3135.65",
+                              "58.0.3135.68",
+                              "58.0.3135.79",
+                              "58.0.3135.90",
+                              "58.0.3135.107",
+                              "58.0.3135.117",
+                              "58.0.3135.118",
+                              "58.0.3135.127",
+                              "58.0.3135.132"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "4",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "73.0.3683.103"
+                          ],
+                          "opera": [
+                              "60.0.3255.56",
+                              "60.0.3255.57",
+                              "60.0.3255.59",
+                              "60.0.3255.60",
+                              "60.0.3255.70",
+                              "60.0.3255.79",
+                              "60.0.3255.83",
+                              "60.0.3255.84",
+                              "60.0.3255.95",
+                              "60.0.3255.103",
+                              "60.0.3255.109",
+                              "60.0.3255.116",
+                              "60.0.3255.151",
+                              "60.0.3255.170"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "5",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "75.0.3770.80"
+                          ],
+                          "opera": [
+                              "62.0.3331.18"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "6",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "75.0.3770.100"
+                          ],
+                          "opera": [
+                              "62.0.3331.43",
+                              "62.0.3331.55",
+                              "62.0.3331.66",
+                              "62.0.3331.99"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "7",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "75.0.3770.142"
+                          ],
+                          "opera": [
+                              "62.0.3331.116",
+                              "62.0.3331.119"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "8",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "76.0.3809.100"
+                          ],
+                          "opera": [
+                              "63.0.3368.35",
+                              "63.0.3368.43",
+                              "63.0.3368.51",
+                              "63.0.3368.53"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "9",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "76.0.3809.132"
+                          ],
+                          "opera": [
+                              "63.0.3368.66",
+                              "63.0.3368.88",
+                              "63.0.3368.94"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "10",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "77.0.3865.90"
+                          ],
+                          "opera": [
+                              "64.0.3417.47",
+                              "64.0.3417.54",
+                              "64.0.3417.61"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "11",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "77.0.3865.120"
+                          ],
+                          "opera": [
+                              "64.0.3417.73",
+                              "64.0.3417.83",
+                              "64.0.3417.92",
+                              "64.0.3417.119"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "12",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "78.0.3904.87"
+                          ],
+                          "opera": [
+                              "65.0.3467.38"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "13",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "78.0.3904.97"
+                          ],
+                          "opera": [
+                              "65.0.3467.48"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "14",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "78.0.3904.108"
+                          ],
+                          "opera": [
+                              "65.0.3467.62",
+                              "65.0.3467.69",
+                              "65.0.3467.72",
+                              "65.0.3467.78"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "15",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "79.0.3945.79"
+                          ],
+                          "opera": [
+                              "66.0.3515.27"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "16",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "79.0.3945.117"
+                          ],
+                          "opera": [
+                              "66.0.3515.36"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "17",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "79.0.3945.130"
+                          ],
+                          "opera": [
+                              "66.0.3515.44",
+                              "66.0.3515.72",
+                              "66.0.3515.103"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "18",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "80.0.3987.100"
+                          ],
+                          "opera": [
+                              "67.0.3575.31"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "19",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "80.0.3987.122"
+                          ],
+                          "opera": [
+                              "67.0.3575.53"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "20",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "80.0.3987.132"
+                          ],
+                          "opera": [
+                              "67.0.3575.79",
+                              "67.0.3575.97"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "21",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "80.0.3987.149"
+                          ],
+                          "opera": [
+                              "67.0.3575.115"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "22",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "80.0.3987.163"
+                          ],
+                          "opera": [
+                              "67.0.3575.137"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "23",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "81.0.4044.113"
+                          ],
+                          "opera": [
+                              "68.0.3618.46",
+                              "68.0.3618.56"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "24",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "81.0.4044.129"
+                          ],
+                          "opera": [
+                              "68.0.3618.63",
+                              "68.0.3618.91"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "25",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "81.0.4044.138"
+                          ],
+                          "opera": [
+                              "68.0.3618.104",
+                              "68.0.3618.165",
+                              "68.0.3618.173"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "26",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "83.0.4103.97"
+                          ],
+                          "opera": [
+                              "69.0.3686.36"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "27",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "83.0.4103.116"
+                          ],
+                          "opera": [
+                              "69.0.3686.49",
+                              "69.0.3686.57",
+                              "69.0.3686.77",
+                              "69.0.3686.95"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "28",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "84.0.4147.89"
+                          ],
+                          "opera": [
+                              "70.0.3728.71"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "29",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "84.0.4147.105"
+                          ],
+                          "opera": [
+                              "70.0.3728.95",
+                              "70.0.3728.106",
+                              "70.0.3728.119"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "30",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "84.0.4147.125"
+                          ],
+                          "opera": [
+                              "70.0.3728.133"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "31",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "84.0.4147.135"
+                          ],
+                          "opera": [
+                              "70.0.3728.144",
+                              "70.0.3728.189"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "32",
+                      "probability": 1,
+                      "data": {
+                          "chromium": [
+                              "85.0.4183.121"
+                          ],
+                          "opera": [
+                              "71.0.3770.198",
+                              "71.0.3770.228",
+                              "71.0.3770.271"
+                          ]
+                      }
+                  },
+                  {
+                      "id": "33",
+                      "probability": 1,
+                      "data": {
+                          "chromium": ["86.0.4240.80"],
+                          "opera": ["72.0.3815.148"]
+                      }
+                  }
+              ]
+          },
+          "safari12": {
+              "id": "safari12",
+              "probability": 0.0419,
+              "ua_format": "Mozilla/5.0 (<os:signature>) AppleWebKit/<browser:webkit> (KHTML, like Gecko) Version/<browser:safari> Safari/<browser:webkit>",
+              "variants": [
+                  {
+                      "id": "606.1.36",
+                      "probability": 1,
+                      "data": {
+                          "webkit": ["606.1.36"],
+                          "safari": ["12.0.3"]
+                      }
+                  }, {
+                      "id": "607.1.40",
+                      "probability": 1,
+                      "data": {
+                          "webkit": ["607.1.40"],
+                          "safari": [
+                              "12.1",
+                              "12.1.1",
+                              "12.1.2"
+                          ]
+                      }
+                  }
+              ]
+          },
+          "safari13": {
+              "id": "safari13",
+              "probability": 0.0419,
+              "ua_format": "Mozilla/5.0 (<os:signature>) AppleWebKit/<browser:webkit> (KHTML, like Gecko) Version/<browser:safari> Safari/<browser:webkit>",
+              "variants": [
+                  {
+                      "id": "608.2.11",
+                      "probability": 1,
+                      "data": {
+                          "webkit": ["608.2.11"],
+                          "safari": [
+                              "13.0",
+                              "13.0.1",
+                              "13.0.2",
+                              "13.0.3",
+                              "13.0.4",
+                              "13.0.5",
+                              "13.1",
+                              "13.1.1",
+                              "13.1.2"
+                          ]
+                      }
+                  }
+              ]
+          },
+          "safari14": {
+              "id": "safari14",
+              "probability": 0.0419,
+              "ua_format": "Mozilla/5.0 (<os:signature>) AppleWebKit/<browser:webkit> (KHTML, like Gecko) Version/<browser:safari> Safari/<browser:webkit>",
+              "variants": [
+                  {
+                      "id": "608.2.11",
+                      "probability": 1,
+                      "data": {
+                          "webkit": ["608.2.11"],
+                          "safari": ["14.0"]
+                      }
+                  }
+              ]
+          }
+      }
+  },
+  "tablet": {
+      "id": "tablet",
+      "oses": [],
+      "browsers": {}
+  },
+  "mobile": {
+      "id": "mobile",
+      "oses": [],
+      "browsers": {}
+  }
+}
