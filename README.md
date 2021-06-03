@@ -39,7 +39,7 @@ func main() {
 You can see [more examples here](/examples)
 
 ## As standalone binary
-To run as a standalone binary, [download](/releases) the appropriate binary for your system, and install it.
+To run as a standalone binary, [download](https://github.com/DataHenHQ/useragent/releases) the appropriate binary for your system, and install it.
 
 You can then use it to generate a user agent string like so:
 
