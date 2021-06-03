@@ -29,14 +29,14 @@ func Desktop() (ua string, err error) {
 
 // Mobile returns a random generated UA for mobile browsers
 // To do: make proper implementation
-func Mobile() string {
+func Mobile() (string, error) {
 	ua := "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.23 (KHTML, like Gecko) Version/10.0 Mobile/14E5239e Safari/602.1"
-	return ua
+	return ua, nil
 }
 
 // GoogleBot2 returns UA for google bot2
-func GoogleBot2() string {
-	return `Googlebot/2.1 (+http://www.googlebot.com/bot.html)`
+func GoogleBot2() (string, error) {
+	return `Googlebot/2.1 (+http://www.googlebot.com/bot.html)`, nil
 }
 
 // LoadUAConfig loads UserAgent configuration file
